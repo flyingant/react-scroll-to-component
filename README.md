@@ -1,5 +1,5 @@
 # react-scroll-to-component
-Smooth srolls to react component via 
+Smooth srolls to react component via reference
 
 ## `scrollToComponent(ref, <options>)`
 
