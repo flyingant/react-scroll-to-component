@@ -5,6 +5,7 @@ Smooth srolls to react component via
 
 ##### Valid options:
 
+>
 ###### offset : *number* 
 > Add an offset to the final position. if > 0 then page is moved to the bottom otherwise the page is moved to the top.
 ###### align : *string*
