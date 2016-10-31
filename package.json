@@ -1,0 +1,30 @@
+{
+  "name": "react-scroll-to-component",
+  "version": "1.0.0",
+  "description": "smooth scrolling to react component via reference",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyingant/react-scroll-to-component.git"
+  },
+  "dependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "scroll-to": "0.0.2"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "scroll",
+    "scroll-to",
+    "scroll-to-component",
+    "scroll-to-position",
+    "scroll-to-element"
+  ],
+  "author": "FlyingAnt <liucheng@lyingant.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flyingant/react-scroll-to-component/issues"
+  },
+  "homepage": "https://github.com/flyingant/react-scroll-to-component#readme"
+}
