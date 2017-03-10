@@ -7,9 +7,11 @@
     "type": "git",
     "url": "git+https://github.com/flyingant/react-scroll-to-component.git"
   },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0"
+  },
   "dependencies": {
-    "react": "^0.14.0",
-    "react-dom": "^0.14.0",
     "scroll-to": "0.0.2"
   },
   "keywords": [
