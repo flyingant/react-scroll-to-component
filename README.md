@@ -31,7 +31,7 @@ scrollToComponent(this.refs.name, {
 ```
 ## Demo
 
-```
+```js
 import React, { Component } from 'react';
 import './App.css';
 import scrollToComponent from 'react-scroll-to-component';
