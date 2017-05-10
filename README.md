@@ -29,7 +29,7 @@ scrollToComponent(this.refs.name, {
 	duration: 1500
 });
 ```
-## Demo
+## Demo (https://flyingant.github.io/react-scroll-to-component/)
 
 ```js
 import React, { Component } from 'react';
