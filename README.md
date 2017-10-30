@@ -1,6 +1,21 @@
 # react-scroll-to-component
 Smooth srolls to react component via reference
 
+## Install
+
+#### With npm
+
+```sh
+  npm install react-scroll-to-component --save
+```
+
+#### With Yarn
+
+
+```sh
+  yarn add react-scroll-to-component
+```
+
 ## `scrollToComponent(ref, <options>)`
 
 ##### Valid options:
