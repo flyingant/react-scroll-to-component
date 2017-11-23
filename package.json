@@ -1,6 +1,6 @@
 {
   "name": "react-scroll-to-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "smooth scrolling to react component via reference",
   "main": "index.js",
   "repository": {
