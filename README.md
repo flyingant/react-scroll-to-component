@@ -53,15 +53,25 @@ import scrollToComponent from 'react-scroll-to-component';
 
 class App extends React.Component {
 
+  constructor(props) {
+    super(props);
+    this.scrollToTopWithCallback = this.scrollToTopWithCallback.bind(this)
+  }
+
   componentDidMount() {
     scrollToComponent(this.Blue, { offset: 0, align: 'middle', duration: 500, ease:'inCirc'});
+  }
+
+  scrollToTopWithCallback() {
+    let scroller = scrollToComponent(this.Violet, { offset: 0, align: 'top', duration: 1500});
+    scroller.on('end', () => console.log('Scrolling end!') );
   }
 
   render() {
     return (
       <div className='main'>
         <div className='button_group'>
-          <button onClick={() => scrollToComponent(this.Violet, { offset: 0, align: 'top', duration: 1500})}>Go To Violet</button>
+          <button onClick={this.scrollToTopWithCallback}>Go To Violet</button>
           <button onClick={() => scrollToComponent(this.Indigo, { offset: 0, align: 'bottom', duration: 500, ease:'inExpo'})}>Go To Indigo</button>
           <button onClick={() => scrollToComponent(this.Blue, { offset: -200, align: 'middle', duration: 1500, ease:'inCirc'})}>Go To Blue</button>
           <button onClick={() => scrollToComponent(this.Green, { offset: 0, align: 'middle', duration: 500, ease:'inExpo'})}>Go To Green</button>
