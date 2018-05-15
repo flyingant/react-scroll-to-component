@@ -1,6 +1,8 @@
 # react-scroll-to-component
 Smooth srolls to react component via reference
 
+（To support the server side rendering, please refer to : https://github.com/flyingant/react-scroll-to-component-ssr）
+
 ## Install
 
 #### With npm
