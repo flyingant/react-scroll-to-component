@@ -21,12 +21,13 @@ function calculateScrollOffset(element, offset, alignment) {
                   maxScrollPosition);
 }
 
-module.exports = function (ref, options) {
+module.exports = function (ref, options, callback) {
   options = options || {
     offset: 0,
     align: 'middle'
   };
+  callback = callback || function(){};
   var element = ReactDOM.findDOMNode(ref);
   if (element === null) return 0;
-  return scroll(0, calculateScrollOffset(element, options.offset, options.align), options);
+  return scroll(0, calculateScrollOffset(element, options.offset, options.align), options).on('end', callback);
 };
